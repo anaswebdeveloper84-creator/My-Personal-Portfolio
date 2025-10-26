@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anas Ali - UI/UX Designer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Portfolio </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HOME ===== -->
+  <section class="hero" id="home">
+    <div class="content">
+      <p class="intro">Hi I am</p>
+      <h1 class="name">Anas Ali</h1>
+      <h2 class="title">UI / Web Developer</h2>
+
+      <div class="socials">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+        <a href="#"><i class="fab fa-behance"></i></a>
+      </div>
+
+      <div class="buttons">
+        <a href="#contact" class="btn-primary">Hire Me</a>
+      </div>
+
+      <div class="stats">
+        <div><h3>7+</h3><p>Years Experience</p></div>
+        <div><h3>35+</h3><p>Projects Done</p></div>
+        <div><h3>110+</h3><p>Happy Clients</p></div>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="Anas.jpg" alt="Profile" />
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I’m a passionate UI/UX Designer with a focus on creating engaging, user-friendly designs. 
+        I love solving problems through design and delivering digital experiences that leave a lasting impression.
+      </p>
+      <p>
+        My goal is to blend creativity and usability to help brands and businesses communicate effectively.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">My Services</h2>
+      <div class="service-boxes">
+        <div class="service">
+          <i class="fas fa-pencil-ruler"></i>
+          <h3>UI/UX Design</h3>
+          <p>Crafting intuitive interfaces with a user-centered approach for web and mobile apps.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Web Design</h3>
+          <p>Designing modern, responsive, and beautiful websites tailored to your brand identity.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Anas Ali WEB/DEVELOPER</h3>
+          <p>Creating elegant mobile app experiences with attention to detail and usability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="portfolio-items">
+        <div class="item"><img src="Anas1.jpg" alt="Project 1"><p>Project 1</p></div>
+        <div class="item"><img src="Anas2.jpg" alt="Project 2"><p>Project 2</p></div>
+        <div class="item"><img src="anas3.jpg" alt="Project 3"><p>Project 3</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+      <p class="form-status"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Anas Ali Web Developer. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>
